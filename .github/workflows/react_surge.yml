@@ -21,6 +21,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-       run: surge ./ boot_assignment1.surge.sh/ --token ${{ secrets.TOKNER }}
+       run: surge ./build boot_assignment1.surge.sh/ --token ${{ secrets.TOKNER }}
        
 
